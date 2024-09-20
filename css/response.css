@@ -1,0 +1,344 @@
+@media (min-width:350px) and (max-width:600px){
+
+
+    header{
+        padding: 10px 0;
+        margin: 0 auto;
+        width: 100%;
+        /* height: 1000px; */
+        /* position: relative; */
+        z-index: 1;
+        position: absolute;
+        
+    }
+
+    .container{
+        max-width: 600px;
+        /* width: 0%; */
+        height: 50px;
+        /* margin: 0 auto; */
+        font-size: 8px;
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* border: 1px solid red; */
+        border: none;
+    }
+    
+    .container h1 a img{
+        width: 80%;
+    }
+
+    .left_menu button{
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .left_menu{
+        display: none;
+    }
+
+    .left_menu .button2{
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        padding: 2px 5px;
+    }
+
+    .right_menu ul li{
+        margin-right: 10px;
+        display: none;
+    }
+
+    .header h1 {
+        margin: 0;
+        width: 70px;
+            
+    }
+    /* leejj */
+    .menu_btn{display: block;}
+    /* leejj */
+    .nav{
+        /* margin-top: 20px; */
+        padding-top: 5px;
+        /* font-size: 1px; */
+        /* max-width: 1000px; */
+        margin: 0 auto;
+        width: 400px;
+        display: none;
+        /* border: 1px solid black; */
+    
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    nav ul li {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        /* margin-top: 20px */
+        font-size: 8px;
+        color: #fff;
+    
+    }
+
+    section{
+        max-width: 600px;    
+        width: 100%;
+        /* z-index: 1; */
+        /* text-align: center; */
+
+    }
+
+    .slide_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+
+    }
+
+    /* #section .slide_img a{
+        height: 300px;
+    } */
+
+    .content2{
+        margin: 5px auto;
+        /* padding: 0px 10px; */
+    }
+
+    .content2_title{
+        color: #333;
+        font-size: 30px;
+        margin-top: 5px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .content2_title_sub{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .list{
+        /* margin: ; */
+        margin: 30px auto 0;
+        width: 70%;
+        
+    }
+
+    .list li{
+        width: 120px;
+        height: 300px;
+        /* margin-left: 1; */
+
+    }
+
+    .list li a{
+
+    }
+
+    .list li a .list_img{
+        height: 200px;
+        
+        /* width: 150px; */
+    }
+
+    .list li a .list_img img{
+        width: 170px;
+        height: 200px;
+    }
+
+    .list li:nth-child(2) a .list_img img{
+        height: 200px;
+        width: 170px;
+        margin: 0;
+    }
+    .list li:nth-child(2){
+        margin-top: 30px;
+    }
+    .list li h4{
+        text-align-last: left;
+        margin: 14px 0 0 0px;
+        font-size: 12px;
+    }
+    .list li p{
+        text-align-last: left;
+        margin: 3px 0 0 0px;
+        font-size: 5px;
+    }
+
+    .content3{
+        margin: 20px auto; 
+        text-align: center;
+    }
+
+    .content3_title{
+        font-size: 30px; 
+        margin-top: 30px;
+    }
+    .content3_title_sub{
+        font-size: 10px;
+    }
+
+    .list3_content3{
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        font-size: 10px;
+        /* height: auto; */
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+
+    .list3_left{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+    .list3_left a img{
+        width: 100%;
+        /* transition: all 0.5s; */
+        /* border: 1px solid black; */
+    }
+    .list3_right {
+        padding: 20px 25px;
+        text-align: right;
+        width: 200px;
+    }
+    .list3_right .p1{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #666;
+    }
+    .list3_right p{
+        margin: 10px 0;
+    }
+    .list3_right button{
+        background-color: darkslateblue;
+        color: #fff;
+        border: 0;
+        padding: 5px 10px;
+        font-size: 10px;
+    
+    }
+    .list4_left{
+        padding: 20px 25px;
+        text-align: left;
+        width: 200px;
+    }
+    .list4_content4{
+        margin-left: 100px;
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        font-size: 10px;
+        /* height: auto; */
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+    .box{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/las-vegas-4849994_1920.jpg);
+        background-size: cover;
+        margin-top: 50px;
+    }
+    .box p{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .slick-prev {
+        left: 40px; 
+        cursor: pointer;
+    }
+    
+    .slick-next {
+        cursor: pointer;
+        right: 40px; 
+    }
+
+    .slider img {
+        padding: 40px 70px;
+        width: 80%; 
+        margin: 0 auto;
+        }
+
+    .last_btn{
+        background-color: darkslateblue;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        align-items: center;
+    
+    }
+    .last_btn a span{
+        font-size: 10px;
+    }
+
+    .footer{
+        background-color: #d1d1d1;
+        height: 130px;
+        margin-top: 30px;
+        font-size: 3px;
+        /* width: 1920px; */
+    }
+    
+    .footer_logo a img{
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    .footer_content div{
+        width: 400px;
+        height: 100px;
+        padding: 10px;
+        margin-top: 15px;
+        /* border: 1px solid black; */
+    }
+
+    .footer_content2 li{
+        margin-bottom: 3px;
+    }
+    .footer_content3 li{
+        margin-bottom: 3px;
+    }
+    .footer_content4 li{
+        margin-bottom: 3px;
+    }
+
+    .footer_content4 ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .snsimg{
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .footer_toggle {
+        background-color: #fff;
+        color: #666;
+        border: 1px solid #666;
+        padding: 5px 15px;
+        cursor: pointer;
+        font-size: 5px;
+    }
+}
