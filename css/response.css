@@ -336,7 +336,8 @@
         justify-content: flex-end;
     }
     .snsimg{
-        height: 20px;
+        height: 10px;
+        width: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
