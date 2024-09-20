@@ -117,14 +117,14 @@
 
     .content2_title{
         color: #333;
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 5px;
         text-align: center;
         padding-top: 30px;
     }
 
     .content2_title_sub{
-        font-size: 10px;
+        font-size: 8px;
         text-align: center;
     }
 
@@ -138,9 +138,19 @@
     .list li{
         width: 120px;
         height: 300px;
+
         /* margin-left: 1; */
 
     }
+
+    .list li:nth-child(1){
+        margin-right: 10px;
+    }
+    
+    .list li:nth-child(2){
+        margin-right: 10px;
+    }
+
 
     .list li a{
 
@@ -168,7 +178,7 @@
     .list li h4{
         text-align-last: left;
         margin: 14px 0 0 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .list li p{
         text-align-last: left;
@@ -182,11 +192,11 @@
     }
 
     .content3_title{
-        font-size: 30px; 
+        font-size: 20px; 
         margin-top: 30px;
     }
     .content3_title_sub{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .list3_content3{
@@ -258,7 +268,7 @@
     }
     .box p{
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -284,10 +294,10 @@
         border: none;
         padding: 5px 10px;
         align-items: center;
-    
+        /* font-size: 3px; */
     }
     .last_btn a span{
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .footer{
