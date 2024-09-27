@@ -1,5 +1,8 @@
 
-  $(document).ready(function(){
+$(function(){
+ 
+  
+
       $('.slider').slick({
           prevArrow: '<button type="button" class="slick-prev"><img src="img/왼쪽화살표.png" alt="Previous"></button>',
           nextArrow: '<button type="button" class="slick-next"><img src="img/오른쪽화살표.png" alt="Next"></button>',
@@ -14,11 +17,20 @@
           {
             breakpoint: 768,    
             settings: {
-              slidesToShow: 1,   
-              centerPadding: '0' 
+            slidesToShow: 1,   
+            centerPadding: '0' 
             }
           }
         ]
       });
+
+      $(".menu_btn").click(function(){
+        $(".m_nav").addClass("show")
+      })
+      $(".close").click(function(){
+        $(".m_nav").removeClass("show")
+      })
+
+
     });
 
